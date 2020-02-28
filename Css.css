@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	box-sizing: border-box
+	}
+body {
+	font-size: 16px;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	line-height: 1.0cm;
+}
+
+.mainportada {
+	text-align: center;
+}
+.menubar {
+		background:#2A0E78;
+	overflow: hidden;
+	position:inherit;
+}
+
+.encabezado{
+	overflow: hidden;
+	
+	position: inherit;
+}
+.encabezado h1 {
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	color:blue;
+	text-align: center
+}
+.encabezado span {
+	color: red
+}
+
+.encabezado nav{
+	float: center;
+}
+.encabezado nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.encabezado nav ul li{
+	display:inline;
+	margin-right: -4px;
+}
+.encabezado nav ul li a{
+	
+	color: #fff;
+	padding: 60px;
+	border-left: 0px solid #696969;
+}
+
+.encabezado nav ul li a:hover{
+background:#575757;
+}
+/*FIN DE ENCABEZADO*/
+
+.main{
+	background:#06216A;
+	width: auto;
+	height: auto;
+	overflow: hidden;
+}
+
+.main article{
+	display: inline-block;
+	text-align:justify;
+	width: 25%;
+	margin: 0 200px 0 0;
+	padding: 10px;
+}
+	
+.main h4{
+	color: #fff;
+	font-size: 1.875em;
+	text-align: center
+}
+
+
+.main  h3{
+	font-size: 3em; /*35px*/
+	margin-top: 15px;
+	margin-bottom: 20px;
+	text-align: center;
+	color: white; 
+}
+.main p{
+	color: white;
+	text-align: justify
+}
+/*FIN DE MAIN*/
+
+#granada{
+	background: #E45409;
+}
+#carazo{
+	background: #13039A;
+}
+#leon{
+	background: #13039A;
+}
+#masaya{
+	background: #E45409;
+}
+#departamentos{
+	text-align: justify;
+	color: white;
+}
+#departamentos h3{
+	font-size: 2.0em;
+	text-align: center;
+}
+#departamentos img{
+	margin-right: 10px;
+	position: relative;
+	top: 4px;
+}
+
+
+
